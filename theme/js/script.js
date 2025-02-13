@@ -309,7 +309,7 @@ $(function() {
             userId: '3401121086',
             resolution: 'low_resolution',
             clientId: 'a42e80c86661419b94a5ac01dc022221',
-            accessToken: '3401121086.ca9c5d8.49a154f2d6034846ae4e37962de804e8',
+            accessToken: '',
             template: '<div class="instafeed_img"><a href="{{link}}" target="_blank"><div class="instagram_img_holder" style="background-image: url({{image}});"></div><div class="instafeed_img_overlay"><span>Instagram</span></div></a></div>',
             after: function() {
                 runInstaCarousel();
