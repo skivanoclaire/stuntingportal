@@ -558,7 +558,7 @@ class Home extends CI_Controller
         // ReCAPTCHA verification
         $recaptchaResponse = trim($this->input->post('g-recaptcha-response'));
         $userIp = $this->input->ip_address();
-        $secret = "6LfffwsfAAAAAA2w41z9UFCue-h056Hq5Dx-QrwQ";
+        $secret = "";
         $url = "https://www.google.com/recaptcha/api/siteverify?secret=" . $secret . "&response=" . $recaptchaResponse . "&remoteip=" . $userIp;
 
         $ch = curl_init();
